@@ -1,0 +1,27 @@
+nav {
+  font-size: var(--font-size-regular);
+  color: var(--color-neutral-dark-grayish-blue);
+}
+
+.product__info {
+  &__wrapper {
+    padding: 2.4em;
+  }
+
+  &__brand-name {
+    color: var(--color-primary);
+    font-size: var(--font-size-xxsmall);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+  }
+  &__product-name {
+    color: var(--color-neutral-black);
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+  }
+  &__product-description {
+    color: var(--color-neutral-grayish-blue);
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-regular);
+  }
+}

@@ -1,0 +1,53 @@
+// ## Colors
+
+// ### Primary
+
+// - Orange: hsl(26, 100%, 55%)
+// - Pale orange: hsl(25, 100%, 94%)
+
+// ### Neutral
+
+// - Very vark blue: hsl(220, 13%, 13%)
+// - Dark grayish blue: hsl(219, 9%, 45%)
+// - Grayish blue: hsl(220, 14%, 75%)
+// - Light grayish blue: hsl(223, 64%, 98%)
+// - White: hsl(0, 0%, 100%)
+// - Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%)
+
+// ## Typography
+
+// ### Font-size
+
+// - xxsmall: 1.2rem
+// - xsmall: 1.3rem
+// - small: 1.5rem
+// - small: 1.6rem
+// - medium: 1.8rem
+// - large: 2.8rem
+
+// ### Font-weight
+
+// - regular: 400
+// - bold: 700
+
+:root {
+  --color-primary: hsl(26, 100%, 55%);
+  --color-primary-pale: hsl(25, 100%, 94%);
+  --color-neutral-very-vark-blue: hsl(220, 13%, 13%);
+  --color-neutral-dark-grayish-blue: hsl(219, 9%, 45%);
+  --color-neutral-grayish-blue: hsl(220, 14%, 75%);
+  --color-neutral-light-grayish-blue: hsl(223, 64%, 98%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-black: hsl(0, 0%, 0%);
+
+  --font-size-xxsmall: 1.2rem;
+  --font-size-xsmall: 1.3rem;
+  --font-size-small: 1.5rem;
+  --font-size-regular: 1.6rem;
+  --font-size-medium: 1.8rem;
+  --font-size-large: 2.8rem;
+  --font-size-xlarge: 4.4rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__image {
+    &__wrapper {
+      border: 1px solid blue;
+    }
+  }
+  &__info {
+    &__wrapper {
+      border: 1px solid red;
+    }
+  }
+}
