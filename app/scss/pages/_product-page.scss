@@ -10,12 +10,15 @@
   }
   &__image {
     &__wrapper {
-      border: 1px solid blue;
     }
   }
   &__info {
     &__wrapper {
-      border: 1px solid red;
     }
   }
+}
+
+.main-image {
+  height: 300px;
+  width: 100%;
 }

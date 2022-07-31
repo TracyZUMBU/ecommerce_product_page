@@ -1,3 +1,5 @@
+@use "../abstract/mixins" as m;
+
 nav {
   font-size: var(--font-size-regular);
   color: var(--color-neutral-dark-grayish-blue);
@@ -16,12 +18,55 @@ nav {
   }
   &__product-name {
     color: var(--color-neutral-black);
-    font-size: var(--font-size-large);
-    font-weight: var(--font-weight-bold);
+    @include m.bigTitle;
+    margin: 1.6rem 0;
   }
   &__product-description {
-    color: var(--color-neutral-grayish-blue);
+    color: var(--color-neutral-dark-grayish-blue);
     font-size: var(--font-size-regular);
     font-weight: var(--font-weight-regular);
+  }
+  &__price-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 2.4rem 0;
+  }
+  &__product-price {
+    @include m.bigTitle;
+  }
+  &__product-promotion {
+    color: var(--color-primary);
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-bold);
+    background-color: var(--color-primary-pale);
+    padding: 0.2em;
+    margin-left: 1em;
+    padding: 0.6rem 0.8rem 0.4rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+  &__old-price {
+    margin-left: auto;
+    font-size: var(--font-size-regular);
+    color: var(--color-neutral-grayish-blue);
+    font-weight: var(--font-weight-bold);
+    text-decoration: line-through;
+  }
+  &__quantity-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-neutral-light-grayish-blue);
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-bold);
+    padding: 1.375em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
   }
 }

@@ -13,9 +13,13 @@
   </head>
   <body>
     <div class="container">
-      <nav class="main-nav__wrapper" aria-label="Main">
-        <i class="main-nav__icon main-nav__icon--menuburger"></i>
-        <ul class="main-nav__list">
+      <nav class="main-nav__wrapper">
+        <img
+          src="./assets/images/icon-menu.svg"
+          alt="product-image"
+          class="icon-menu"
+        />
+        <!-- <ul class="main-nav__list">
           <li class="main-nav__item">
             <a href="#" class="main-nav__link">Collections</a>
           </li>
@@ -31,18 +35,26 @@
           <li class="main-nav__item">
             <a href="#" class="main-nav__link">Contact</a>
           </li>
-        </ul>
+        </ul> -->
         <div class="main-nav__icon-container">
-          <i class="main-nav__icon main-nav__icon--cart"></i>
-          <i class="main-nav__icon main-nav__icon--profile"></i>
+          <img
+            src="./assets/images/icon-cart.svg"
+            alt="cart icon"
+            class="btn-cart__icon"
+          />
+          <img
+            src="./assets/images/image-avatar.png"
+            alt="avatar"
+            class="icon-avatar"
+          />
         </div>
       </nav>
       <main class="product__container">
         <div class="product__image__wrapper">
           <img
-            src="images/product-image.jpg"
+            src="./assets/images/image-product-1.jpg"
             alt="product-image"
-            class="product-image__main"
+            class="main-image"
           />
           <div class="product-image__carrousel">
             <img src="" alt="" class="product_image__thumbnail" />
@@ -61,6 +73,24 @@
             Featuring a durable rubber outer sole, they’ll withstand everything
             the weather can offer.
           </p>
+          <div class="product__info__price-wrapper">
+            <p class="product__info__product-price">$125.00</p>
+            <span class="product__info__product-promotion">50%</span>
+            <p class="product__info__old-price">$250.00</p>
+          </div>
+          <div class="product__info__quantity-wrapper">
+            <img src="./assets/images/icon-minus.svg" alt="minus icon" />
+            <p class="product__info__quantity">0</p>
+            <img src="./assets/images/icon-plus.svg" alt="minus icon" />
+          </div>
+          <button class="btn-cart">
+            <img
+              src="./assets/images/icon-cart.svg"
+              alt="cart icon"
+              class="btn-cart__icon"
+            />
+            <p class="btn-cart__call-to-action">Add to card</p>
+          </button>
         </div>
       </main>
     </div>
