@@ -15,3 +15,22 @@ nav {
   width: 24px;
   height: 24px;
 }
+
+.icon-close {
+  width: 16px;
+  height: 15px;
+}
+
+#btnMenuControl {
+  display: none;
+  &:checked ~ .main-nav__list-wrapper {
+    display: block;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.main-nav__list-wrapper {
+  display: none;
+}
